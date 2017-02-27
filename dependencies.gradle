@@ -8,10 +8,10 @@ ext.deps = [
 // pin android plugin to specific versions
 ext.androidVersions = [
   // chromium will not compile with less than 18 now
-  compileSdkVersion: 18,
-  buildToolsVersion: "18.0.1",
+  compileSdkVersion: 19,
+  buildToolsVersion: "23.0.0",
   // chromium won't run on less than Android 4.x => SDK 14
-  minSdkVersion: 14,
-  targetSdkVersion: 18
+  minSdkVersion: 19,
+  targetSdkVersion: 23
 ]
 
